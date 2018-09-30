@@ -4,7 +4,7 @@ $(document).ready(function() {
   pull_jackpot();
   var timer;
   function pull_jackpot() {
-  var nominal = 1383806986;
+  var nominal = 983806986;
   if (jackpot == 0) jackpot = parseInt(nominal - 100000000);
   var amount = 1000000 / delay * 1;
   timer = setInterval(function() { jackpot = set_jackpot(jackpot, nominal, amount); }, 1);
