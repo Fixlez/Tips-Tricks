@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var delay = 44446800;
+  var delay = 24446800;
   var jackpot = 0;
   pull_jackpot();
   var timer;
